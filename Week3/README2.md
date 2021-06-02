@@ -98,8 +98,11 @@ forks=100
 $ ansible -i all-in-one all -m ping
 ```
 
+![Screenshot_1.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_1.png)
 
 - Kolla passwords:
+
+![Screenshot_4.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_4.png)
 
 ```
 $ kolla-genpwd
@@ -137,6 +140,8 @@ $ kolla-ansible -i ./all-in-one prechecks
 $ kolla-ansible -i ./all-in-one deploy
 ```
 
+![Screenshot_3.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_3.png)
+
 ### Step 7: Using OpenStack
 
 - Install the OpenStack CLI client:
@@ -154,6 +159,10 @@ $ . /etc/kolla/admin-openrc.sh
 ```
 
 ### Result
+
+![Screenshot_7.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_7.png)
+
+![Screenshot_6.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_6.png)
 
 ## Reference
 
