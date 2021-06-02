@@ -30,9 +30,9 @@ $ sudo install minikube-linux-amd64 /usr/local/bin/minikube
   >$ minikube start --driver=docker
 #### Result
 
-<img src="./pic/Screenshot_2.png">
+![Screenshot_2.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_2.png)
 
-<img src="./pic/Screenshot_3.png">
+![Screenshot_3.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_3.png)
 
 ### Step 2: Deploy MariaDB
 
@@ -160,7 +160,7 @@ $ kubectl apply -f deploy-mariadb.yaml
 
 #### Result
 
-<img src="./pic/Screenshot_4.png">
+![Screenshot_4.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_4.png)
 
 ### Step 3: Deploy Wordpress
 
@@ -272,20 +272,20 @@ $ kubectl apply -f deploy-wordpress.yaml
 
 #### Result
 
-<img src="./pic/Screenshot_10.png">
+![Screenshot_10.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_10.png)
 
 ### Step 4: Run Minikube & Deploy
 
 - Run Minikube
 
 > $ minikube dashboard
-<img src="./pic/Screenshot_7.png">
+![Screenshot_7.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_7.png)
 
 - Get link
 
 > $ minikube service wordpress --url
-<img src="./pic/Screenshot_9.png">
+![Screenshot_9.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_9.png)
 
 - Deploy
 
-<img src="./pic/Screenshot_8.png">
+![Screenshot_8.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week4/pic/Screenshot_8.png)
