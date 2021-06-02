@@ -21,7 +21,7 @@
 
 > $ ansible --version
 
-<img src="./pic/1_5.png">
+![1_5.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/1_5.png)
 
 ### Step 2: Create your own file 
 
@@ -125,23 +125,23 @@ remote_user = donam2539
 
 > $ ansible-playbook -i inventory.ini ping-playbook.yaml -k
 
-<img src="./pic/1_7.png">
+![1_7.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/1_7.png)
 
 ### Step 4: Install docker and docker-compose on VM1
 
 > $ ansible-playbook -i inventory.ini install-docker-playbook.yaml -k -K
 
-<img src="./pic/1_8.png">
+![1_8.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/1_8.png)
 
 ### Step 5: Deploy Wordpress
 
 > $ ansible-playbook -i inventory.ini deploy-wordpress-playbook.yaml -k -K
 
-<img src="./pic/1_9.png">
+![1_9.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/1_9.png)
 
 ## Result
 
-<img src="./pic/1_10.png">
+![1_10.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/1_10.png)
 
 ## Practice 2: Setup Ansible and deploy Wordpress and MariaDB on 2 VMs
 
@@ -236,15 +236,16 @@ remote_user = donam2539
 
 > $ ansible-playbook -i inventory.ini deploy-mariadb-playbook.yaml -k -K
 
-<img src="./pic/2_1.png">
-<img src="./pic/2_2.png">
+![2_1.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/2_1.png)
+
+![2_2.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/2_2.png)
 
 ### Step 4: Deploy Wordpress (docker) on on VM2
 
 > $ ansible-playbook -i inventory.ini deploy-wordpress-playbook.yaml -k -K
 
-<img src="./pic/2_3.png">
+![2_3.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/2_3.png)
 
 ## Result
 
-<img src="./pic/2_4.png">
+![2_4.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week2/pic/2_4.png)
