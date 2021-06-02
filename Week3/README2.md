@@ -102,11 +102,11 @@ $ ansible -i all-in-one all -m ping
 
 - Kolla passwords:
 
-![Screenshot_4.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_4.png)
-
 ```
 $ kolla-genpwd
 ```
+
+![Screenshot_4.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic1/Screenshot_4.png)
 
 - Kolla globals.yml:
 
