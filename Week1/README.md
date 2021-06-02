@@ -1,6 +1,9 @@
 # WEEK 1: Get Bitnami Docker Image for Wordpress
+
 ## Setup Docker in VM
+
 ### Run the commands to set up Docker
+
 ```
   $ sudo apt-get remove docker docker.io docker-engine
   $ sudo apt install docker.io
@@ -9,7 +12,9 @@
   $ sudo systemctl start docker 
   $ sudo systemctl enable docker 
 ```
+
 ## Set up Docker Compose
+
 ```sh
   $ sudo apt install curl 
   $ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -17,6 +22,7 @@
 ```
 
 ## Practice 1: Deploy Wordpress with command line 
+
 ### Step 1: Create network to connect with database <br />
 
 `$ docker network create wordpress-network`
@@ -39,11 +45,13 @@ Run , connect MariaDB with network
    bitnami/mariadb:latest
 ``` 
 ### Step 3: Run Wordpress <br />
+
 Create volume for Wordpress 
 
 `$ docker volume create --name wordpress_data` 
 
 Run, connect with network
+
 ```sh
    $docker run -d --name wordpress \
    -p 8080:8080 -p 8443:8443 \
@@ -59,10 +67,13 @@ Run, connect with network
 ### Now access your application at  https://localhost:8443
 
 ### Result:
-<img src="./pic/HW1_6.png">
+
+![HW1_6.png](https://raw.githubusercontent.com/dobuithanhnam/VDT2021/main/Week1/pic/HW1_6.png)
  
-## Practice 2 : Deploy Wordpress with Docker-compose
-Run the commands :
+## Practice 2: Deploy Wordpress with Docker-compose
+
+Run the commands:
+
 ```sh 
    $ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-wordpress/master/docker-compose.yml > docker-compose.yml
    $ docker-compose up -d
@@ -71,16 +82,19 @@ Run the commands :
 ### Now access your application at https://localhost:8443 
 
 ### Result:
-<img src="./pic/HW2_2.png">
+
+![HW2_2.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week1/pic/HW2_2.png?raw=true)
 
 ## Practice 3: Deploy WordPress with Command Line on two virtual machines
-### On VM-1 : 
+
+### On VM-1: 
 
 Create volume for MariaDB
 
 `$ docker volume create --name mariadb_data`
 
 Run , connect MariaDB with network
+
 ```sh
     $ docker run -d --name mariadb \
     --env ALLOW_EMPTY_PASSWORD=yes \
@@ -92,11 +106,13 @@ Run , connect MariaDB with network
     bitnami/mariadb:latest
 ```
 ### On VM-2:
+
 Create volume for Wordpress
 
 `$ docker volume create --name wordpress_data`
 
 Run, connect with network 
+
 ```sh
      $docker run -d --name wordpress \
     -p 8080:8080 -p 8443:8443 \
@@ -110,4 +126,5 @@ Run, connect with network
 ```
 
 ### Result:
-<img src="./pic/HW3_1.png">
+
+![HW3_1.png](https://github.com/dobuithanhnam/VDT2021/blob/main/Week1/pic/HW3_1.png?raw=true)
