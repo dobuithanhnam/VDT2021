@@ -29,7 +29,7 @@ $ sudo reboot
 
 #### Result 
 
-![Screenshot_4.png](https://github.com/dobuithanhnam/VDT-ViettelNet-W3/blob/main/pic/Screenshot_4.png)
+![Screenshot_4.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic/Screenshot_4.png)
 
 ### Step 2: Create Bridge on 2 VMs
 
@@ -71,7 +71,7 @@ $ sudo ovs-vsctl add-port sw1 ens33
 
 #### Result 
 
-![Screenshot_9.png](https://github.com/dobuithanhnam/VDT-ViettelNet-W3/blob/main/pic/Screenshot_9.png)
+![Screenshot_9.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic/Screenshot_9.png)
 
 - VM2
 
@@ -79,7 +79,7 @@ $ sudo ovs-vsctl add-port sw1 ens33
 
 #### Result 
 
-![Screenshot_10.png](https://github.com/dobuithanhnam/VDT-ViettelNet-W3/blob/main/pic/Screenshot_10.png)
+![Screenshot_10.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic/Screenshot_10.png)
 
 ### Step 4: Test ping Vxlan network
 
@@ -87,13 +87,13 @@ $ sudo ovs-vsctl add-port sw1 ens33
 
 #### Result 
 
-![Screenshot_12.png](https://github.com/dobuithanhnam/VDT-ViettelNet-W3/blob/main/pic/Screenshot_12.png)
+![Screenshot_12.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic/Screenshot_12.png)
 
 ### Step 5: Use Wireshark to capture traffic between 2 virtual machines
 
 #### Result 
 
-![Screenshot_14.png](https://github.com/dobuithanhnam/VDT-ViettelNet-W3/blob/main/pic/Screenshot_14.png)
+![Screenshot_14.png](https://github.com/dobuithanhnam/Viettel-Digital-Talent-2021/blob/main/Week3/pic/Screenshot_14.png)
 
 ## Advantages and Disadvantages of using Vxlan network in datacenter
 
