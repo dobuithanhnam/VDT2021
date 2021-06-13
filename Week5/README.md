@@ -75,5 +75,14 @@ Customize Jenkins and you will see the result:
 
 ### Step 4: Create Jenkins Pipeline
 
+You must install some plugin: Docker pipeline, Git, Blue Ocean and install git `https://git-scm.com/`
+
+
+
+Create pipeline
+
+
+### Result
+
 
 
