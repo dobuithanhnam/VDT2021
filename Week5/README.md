@@ -95,5 +95,4 @@ Create pipeline
 
 ### Result
 
-
-
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_14.jpg?raw=true)
