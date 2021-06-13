@@ -70,7 +70,7 @@ A page similar to the following will be displayed, prompting you to enter the Ad
 Use cat to display the password on the terminal:
 
 ```
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 You should see a 32-character long alphanumeric password, as shown below:
