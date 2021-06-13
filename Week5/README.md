@@ -19,6 +19,8 @@ Once the installation is complete, verify it by checking the Java version:
 $ java -version
 ```
 
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_6.png?raw=true)
+
 The output should look something like this:
 
 
@@ -54,11 +56,15 @@ $ sudo systemctl status jenkins
 
 You should see something like this:
 
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_7.png?raw=true)
+
 ### Step 3: Setting up Jenkins
 
 To set up your new Jenkins installation, open your browser, type your domain or IP address followed by port 8080, http://localhost:8080/.
 
 A page similar to the following will be displayed, prompting you to enter the Administrator password that is created during the installation:
+
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_2.png?raw=true)
 
 
 Use cat to display the password on the terminal:
@@ -69,18 +75,21 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 You should see a 32-character long alphanumeric password, as shown below:
 
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_3.png?raw=true)
 
 Customize Jenkins and you will see the result:
 
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_10.png?raw=true)
 
 ### Step 4: Create Jenkins Pipeline
 
-You must install some plugin: Docker pipeline, Git, Blue Ocean and install git `https://git-scm.com/`
+You must install some plugin: Docker pipeline, Git, Blue Ocean and install Git from`https://git-scm.com/`
 
-
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_1.png?raw=true)
 
 Create pipeline
 
+![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_11.png?raw=true)
 
 ### Result
 
