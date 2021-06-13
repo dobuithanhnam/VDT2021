@@ -83,11 +83,13 @@ Customize Jenkins and you will see the result:
 
 ### Step 4: Create Jenkins Pipeline
 
-You must install some plugin: Docker pipeline, Git, Blue Ocean and install Git from`https://git-scm.com/`
+You must install some plugin: Docker pipeline, Git, Blue Ocean and install [Git](https://git-scm.com/)
 
 ![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_1.png?raw=true)
 
 Create pipeline
+
+[Here is my test project](https://github.com/namdbt00/tutorial-jenkins-pipeline)
 
 ![img](https://github.com/namdbt00/Viettel-Digital-Talent-2021/blob/main/Week5/pic/Screenshot_11.png?raw=true)
 
